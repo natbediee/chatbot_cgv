@@ -19,7 +19,7 @@ L’objectif pédagogique est de comprendre le cycle complet d’un projet IA en
 5. [Utilisation](#-utilisation)  
 6. [Fine-tuning du modèle](#-fine-tuning-du-modèle)  
 7. [Ressources](#-ressources)  
-8. [Auteur](#-auteur)  
+8. [Auteurs](#auteurs)  
 
 ---
 
@@ -90,24 +90,24 @@ python3 RecupererPrompt.py
 Préparer train/train.jsonl.
 
 Uploader avec :
-
+```
 python finetuning/addfile.py
-
+```
 
 Lancer l’entraînement :
-
+```
 python finetuning/finetuning.py
+```
 
-
-Récupérer le nom du modèle fine-tuné (ex. ft:gpt-4.1-nano-2025-04-14:mon_projet_01:abcdef) et l’utiliser dans ChatBot.py.
+Récupérer le nom du modèle fine-tuné (ex. ft:gpt-4.1-nano-2025-04-14:mon_projet_01:abcdef) et l’utiliser dans ChatBot.py
 
 ## 📚 Ressources
 
 - Guide officiel OpenAI Fine-Tuning
-
 - Documentation SQLite
 
-## ✍️ Auteur
+## Auteurs
 
 Projet réalisé par Nathalie Bédiée et Gael Maiano
 dans le cadre de la formation Développeur IA – ISEN Brest.
+
