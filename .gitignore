@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+
+# Environnements virtuels
+.venv/
+
+# Config
+*.env
+
+# Ignorer tout dans data
+data/**
